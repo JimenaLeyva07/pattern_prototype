@@ -132,7 +132,12 @@ class _TransferPafeState extends State<TransferPafe> {
           actions: [
             TextButton(
               onPressed: () {
-                Navigator.pop(context);
+                Navigator.pushAndRemoveUntil(
+                    context,
+                    MaterialPageRoute(
+                      builder: (BuildContext context) => const ClientHomePage(),
+                    ),
+                    (route) => false);
               },
               child: const Text('Cancelar'),
             ),

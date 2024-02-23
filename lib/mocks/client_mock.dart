@@ -9,12 +9,12 @@ ClientModel clientMock = ClientModel(
     accounts: [
       AccountModel(
         accountNumber: '002-1547896-215',
-        balance: 1375020.50,
+        balance: 413.5,
         typeAccount: AccountType.ahorro,
       ),
       AccountModel(
         accountNumber: '002-1547896-215',
-        balance: 1689310.90,
+        balance: 529.75,
         typeAccount: AccountType.corriente,
       ),
     ]);
